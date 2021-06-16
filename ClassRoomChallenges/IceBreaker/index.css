@@ -1,0 +1,27 @@
+body {
+  background-color: #9cbdeecb;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  height: 450px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+display: flex;
+  height: 100%;
+  color: rgb(218, 18, 135);
+  font-family: "Raleway", sans-serif;
+  }
+
+.container > div:nth-child(1) {
+  flex: 1;
+}
+
+.container > div:nth-child(2) {
+  flex: 1;
+  list-style-type: disc;
+}
